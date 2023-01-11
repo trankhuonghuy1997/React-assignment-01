@@ -1,0 +1,22 @@
+.city-list {
+    display: flex;
+    max-width: 1200px;;
+    margin: 20px auto 0;
+    gap: 20px;
+}
+
+.city-item {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: calc((1200px - 40px)/3);
+    border-radius: 20px;
+    position: relative;
+}
+.city-item__text {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-50%);
+    color: #fff;
+    margin-left: 20px;
+}

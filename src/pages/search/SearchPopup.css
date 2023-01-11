@@ -1,0 +1,45 @@
+.search-popup {
+    max-width: 350px;
+    background-color: #febb02;
+    padding: 20px;
+    border-radius: 20px;
+    height: fit-content;
+    margin-top: 10px;
+}
+.search-popup form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.main-label {
+    font-size: 16px;
+
+}
+
+#destination,
+#check-in-date {
+    height: 40px;
+}
+.option-form form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+}
+.option-form input {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    
+}
+
+.option-form label {
+    flex-basis: 60%;
+}
+.search-popup button {
+    border:none;
+    background-color: #0071c2;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+}

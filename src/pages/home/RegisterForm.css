@@ -1,0 +1,40 @@
+.container {
+    margin-top: 200px;
+    background-color: #003580;
+    padding: 60px 0;
+}
+
+.content {
+    max-width: 1200px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+.content h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.content input {
+    height: 50px;
+    margin-left: 20px;
+    width: 300px;
+    padding: 0 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.content button {
+    height: 50px;
+    width: 80px;
+    background-color: #0071c2;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+}

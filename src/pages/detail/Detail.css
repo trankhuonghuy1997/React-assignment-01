@@ -1,0 +1,94 @@
+.detail {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.detail-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.detail button {
+    background-color: #0071c2;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.location {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+.location i {
+    padding-right: 10px;
+}
+
+.distance {
+    margin-bottom: 10px;
+    color: #209ee5;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.price {
+    color: #388f1f;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.image img {
+    flex: 1;
+    width: 30%;
+}
+
+.description {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.description-left {
+    flex: 1;    
+}
+
+.description-left p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.description-right {
+    max-width: 350px;
+    padding: 20px;
+    background-color: #ebf3ff;
+    border-radius: 10px;
+}
+
+.description-right p {
+    color: #666;
+    margin: 10px 0;
+}
+
+.description-right h1 {
+    padding: 20px 0;
+}
+.description-right button {
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 20px;
+}
+.description-right span {
+    font-weight: 500;
+}

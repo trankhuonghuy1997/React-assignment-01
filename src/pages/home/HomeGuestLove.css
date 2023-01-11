@@ -1,0 +1,35 @@
+.home-guest-love-list,
+.home-guest-love-list__header {
+    display: flex;
+    max-width: 1200px;;
+    margin: 100px auto 0;
+    gap: 20px;
+}
+
+.home-guest-love-item {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc((1200px - 40px)/5);
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.home-guest-love-item__text {
+    color: #666;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+}
+
+.home-guest-love-item__text span {
+    background-color: #003580;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.home-guest-love-item__text a,
+.home-guest-love-item__text p {
+    padding-top: 10px;
+}
