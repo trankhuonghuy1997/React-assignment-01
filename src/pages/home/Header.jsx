@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { DateRange } from "react-date-range";
-
+import DateRangeComponent from "./DateRange";
 const Header = () => {
   const movetoSearchPage = (e) => {
     e.preventDefault();
@@ -16,14 +15,18 @@ const Header = () => {
             Get rewarded for your travel - unlock instant saving of 10% or more
             with a free account
           </p>
-          <button>Sign in/Register</button>
+          <button>Sign in/ Register</button>
         </div>
-        <form className="header-form">
-          <input type="text" placeholder={`Where are you going?`} />
-          <input type="text" placeholder="06/24/2022 to 06/24/2022" />
-          <input type="number" />
-          <button onClick={movetoSearchPage}>Search</button>
-        </form>
+        <div className="header-form">
+          <form>
+            <input type="text" placeholder="&#xf236;" />
+            <DateRangeComponent />
+            <input type="number" placeholder="&#xf183;" />
+            <button className="header-button" onClick={movetoSearchPage}>
+              Search
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );

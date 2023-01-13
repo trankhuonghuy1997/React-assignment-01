@@ -20,11 +20,13 @@ const SearchListItem = (props) => {
           <span>{props.item.price} $</span>
         </div>
         <div className="first-remark">
-          <h4>Free Cancellation</h4>
+          {props.item.free_cancel ? <h4>Free Cancellation</h4> : <h4> </h4>}
           <p>Include taxes and fees</p>
         </div>
         <div className="second-remark">
-          <p>You can cancel later, so lock in this great price today!</p>
+          {props.item.free_cancel && (
+            <p>You can cancel later, so lock in this great price today!</p>
+          )}
           <button>See availability</button>
         </div>
       </div>

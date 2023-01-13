@@ -1,0 +1,14 @@
+.calendar-wrap {
+   position: relative;
+   background-color: transparent;
+}
+
+.calendar-element {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+}
+.calendar-wrap input {
+    width: 100%;
+}

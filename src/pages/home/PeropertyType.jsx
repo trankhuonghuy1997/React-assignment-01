@@ -43,7 +43,6 @@ const PeropertyType = () => {
       </div>
     );
   });
-  console.log(peropertyTypeList);
   return (
     <>
       <h2 className="type-list__header">Browser By Property Type</h2>
